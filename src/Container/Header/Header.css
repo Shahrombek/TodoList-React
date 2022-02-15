@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    
+}
+.header button, .header div{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white ;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}

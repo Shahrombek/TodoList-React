@@ -1,38 +1,70 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 800px;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  
+}
+.img{
+  width: 100% !important;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2b253f95-9dd4-4143-a8d8-cd7c00abdf40/dec6cl5-39908449-5bb9-4617-afb3-b57dd28659c1.png/v1/fill/w_1280,h_720,q_80,strp/dark_mountain_scenery_by_aomxart_dec6cl5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMmIyNTNmOTUtOWRkNC00MTQzLWE4ZDgtY2Q3YzAwYWJkZjQwXC9kZWM2Y2w1LTM5OTA4NDQ5LTViYjktNDYxNy1hZmIzLWI1N2RkMjg2NTljMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XpspwBSpJGMMk4Rs2de9H7LVbiJ3QWcgWOk-hICVOnE");
+  object-fit: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.todolist{
+  width: 450px;
+}
+
+/* Form */
+.btnnn{
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: rgb(173, 169, 169);
+}
+input{
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  flex: 1;
+}
+.navigate{
+  cursor: pointer;
+}
+.trow{
+  text-decoration: line-through;
+  color: rgb(179, 176, 176);
+}
+
+.clear{
+  border: none;
+  outline: none;
+  background: rgb(95, 92, 105);
   color: white;
+  margin: 20px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  box-shadow: 0px 1px 3px 0px  rgba(0, 0, 255, 0.336);
 }
-
-.App-link {
-  color: #61dafb;
+.activeLink{
+  background: #000 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.darkmode{
+  background: #000;
 }

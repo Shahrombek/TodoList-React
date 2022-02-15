@@ -1,0 +1,38 @@
+.cardBody{
+    height: 350px !important;
+    overflow-y: auto;
+    background: white;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.cardBody::-webkit-scrollbar{
+    display: none;
+}
+
+.taskDiv{
+    display: flex;
+    align-items: center;
+    width: -100%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* font-size: 14px; */
+    display: flex;
+    width: 100% !important;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px 10px;
+    border-top: 2px solid rgba(214, 211, 211, 0.459);
+}
+
+.navigate{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
