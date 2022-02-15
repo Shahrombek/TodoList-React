@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import './CardBody.css'
 import ProductsContext from '../../Context/ProductsContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faXmark } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import CardFooter from '../CardFooter/CardFooter';
 import { Route, Routes, useNavigate } from 'react-router-dom';
@@ -80,7 +80,7 @@ function CardBody() {
                                     } </span>
                                     <div className='d-flex w-100 justify-content-between align-items-center'>
                                         <p className={`p-0 m-0 ${card.completed && 'trow'}`} >{card.text}</p>
-                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '14px' }}> <FontAwesomeIcon icon={faX} /> </button>
+                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '16px' }}> <FontAwesomeIcon icon={faXmark} /> </button>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ function CardBody() {
                                     } </span>
                                     <div className='d-flex w-100 justify-content-between align-items-center'>
                                         <p className={`p-0 m-0 ${card.completed && 'trow'}`} >{card.text}</p>
-                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '14px' }}> <FontAwesomeIcon icon={faX} /> </button>
+                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '16px' }}> <FontAwesomeIcon icon={faXmark} /> </button>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ function CardBody() {
                                     } </span>
                                     <div className='d-flex w-100 justify-content-between align-items-center'>
                                         <p className={`p-0 m-0 ${card.completed && 'trow'}`}>{card.text}</p>
-                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '14px' }}> <FontAwesomeIcon icon={faX} /> </button>
+                                        <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '16px' }}> <FontAwesomeIcon icon={faXmark} /> </button>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ function CardBody() {
                                             } </span>
                                             <div className='d-flex w-100 justify-content-between align-items-center'>
                                                 <p className={`p-0 m-0 ${card.completed && 'trow'}`} style={{ fontSize: '14px' }}>{card.text}</p>
-                                                <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '14px' }}> <FontAwesomeIcon icon={faX} /> </button>
+                                                <button onClick={() => deleteItem(index)} style={{ fontWeight: 'light', border: 'none', background: 'transparent', color: 'gray', fontSize: '16px' }}> <FontAwesomeIcon icon={faXmark} /> </button>
                                             </div>
                                         </div>
                                     </div>
