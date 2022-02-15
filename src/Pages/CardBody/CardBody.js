@@ -136,7 +136,7 @@ function CardBody() {
                                     </div>
                                 })
                             }
-                            <button onClick={clearCompletedAll} className='clear mb-5'>Clear all competed tasks</button>
+                            <button onClick={clearCompletedAll} className='clear mb-5'>Clear all completed tasks</button>
                         </div>
                     } />
                 </Routes>

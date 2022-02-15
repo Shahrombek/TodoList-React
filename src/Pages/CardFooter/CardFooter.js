@@ -9,7 +9,7 @@ function CardFooter() {
                 <span onClick={() => navigate('')}>All</span>
                 <span onClick={() => navigate('active')}>Active</span>
                 <span onClick={() => navigate('completed')}>Completed</span>
-                <span style={{ paddingLeft: '15px' }} onClick={() => navigate('clearCompleted')}>Clear Completed</span>
+                <span style={{ paddingLeft: '22px' }} onClick={() => navigate('clearCompleted')}>Clear Completed</span>
             </div>
         </div >
     )

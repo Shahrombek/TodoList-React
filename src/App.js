@@ -8,21 +8,7 @@ import CardBody from './Pages/CardBody/CardBody';
 
 function App() {
   const [cards, setCards] = useState([
-    // {
-    //   id: 0,
-    //   text: 'currently typing',
-    //   completed: false,
-    // },
-    // {
-    //   id: 1,
-    //   text: '10 minutes medition',
-    //   completed: false,
-    // },
-    // {
-    //   id: 2,
-    //   text: 'Read for 1 hour',
-    //   completed: false,
-    // },
+
   ]);
 
 
@@ -30,7 +16,7 @@ function App() {
 
   return (
     <ProductsContext.Provider value={{ cards, setCards }}>
-      <div className="App ">
+      <div className="App shadow">
         <div className='img'></div>
         <div className='todolist '>
           <Header />
